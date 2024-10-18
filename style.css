@@ -45,7 +45,7 @@ header {
   height: 446.4px;
   max-width: 446.4px;
   border-radius: 20px;
-  background-size: 150%;
+  background-size: 100%;
   background-position: center;
   transition: all 2s ease;
   cursor: pointer;
@@ -255,6 +255,7 @@ i {
   border-radius: 9px;
   background-position: center;
 }
+
 .second {
   width: 244px;
   min-height: 360px;
@@ -375,12 +376,11 @@ i {
 
 .packcards {
   display: flex;
-  max-width: 90vw;
+  max-width: 1900px;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-evenly;
 }
-
 br {
   margin: 0;
 }
