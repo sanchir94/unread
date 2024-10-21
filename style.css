@@ -381,6 +381,33 @@ i {
   margin-right: auto;
   justify-content: space-evenly;
 }
-br {
-  margin: 0;
+.bigcard {
+  width: 100%;
+  height: 183px;
+  font-size: 18px;
+  border-radius: 0 27px 27px 27px;
+  padding: 50px 50px 50px 50px;
+  background-color: white;
+}
+.part3 {
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  margin-top: -116px;
+  flex-direction: column;
+}
+.part1 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(purevdorj.jpeg);
+  background-size: 100%;
+}
+.pro2 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(huhen.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
