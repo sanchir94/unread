@@ -379,7 +379,20 @@ i {
   max-width: 1900px;
   margin-left: auto;
   margin-right: auto;
-  justify-content: space-evenly;
+  gap: 16px;
+  overflow-x: scroll;
+}
+.part3 {
+  width: 100vw;
+  background-color: #fafafa;
+  display: flex;
+  margin-top: 116px;
+  flex-direction: column;
+}
+.wholebody {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .bigcard {
   width: 100%;
@@ -389,25 +402,50 @@ i {
   padding: 50px 50px 50px 50px;
   background-color: white;
 }
-.part3 {
-  width: 100vw;
-  background-color: #fafafa;
-  display: flex;
-  margin-top: -116px;
-  flex-direction: column;
-}
-.part1 {
+
+.pro1 {
   height: 44px;
   width: 44px;
   border-radius: 50px;
   background-image: url(purevdorj.jpeg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 .pro2 {
   height: 44px;
   width: 44px;
   border-radius: 50px;
-  background-image: url(huhen.jpeg);
+  background-image: url(undral.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
+}
+.pro3 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(gerlee.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.pro4 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(tushig.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.pro5 {
+  height: 44px;
+  width: 44px;
+  border-radius: 50px;
+  background-image: url(gerlee.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.article {
+  width: 70%;
+}
+.article-right {
+  align-self: flex-end;
 }
