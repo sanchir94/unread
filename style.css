@@ -445,7 +445,9 @@ i {
 }
 .article {
   width: 70%;
-}
-.article-right {
-  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
