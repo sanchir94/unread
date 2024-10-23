@@ -444,10 +444,75 @@ i {
   background-repeat: no-repeat;
 }
 .article {
-  width: 70%;
+  width: 739px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 30px;
   margin-bottom: 100px;
+}
+.pros1{
+  display: flex;
+  min-width: 500px;
+  gap: 8px;
+  transition: all 0.5s ease;
+}
+.pros2{
+  display: flex;
+  min-width: 500px;
+  gap: 8px;
+  flex-direction: row-reverse;
+  transition: all 0.5s ease;
+}
+.ners .ner1 p{
+color: #000000;
+}
+.ners .onsar{
+  color: #888888;
+}
+.bigcard{
+  width: 739px;
+  height: 183px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+  transition: all 0.5s ease;
+  box-shadow: 0px 0px 50px 4px rgba(209, 209, 209, 0.3);
+}
+.bigcard-right{
+  border-top-right-radius: 27px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+}
+.article {
+  width: 739px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.article-right{
+  align-self: flex-end;
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+.article:hover .bigcard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(red, green, blue, alpha);
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+.article-right:hover .pros2{
+  transform: translate(0, -10px);
+  cursor: pointer;
+}
+.article:hover .pros1{
+  transform: translate(0, -10px);
+  cursor: pointer;
 }
