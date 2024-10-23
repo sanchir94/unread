@@ -380,7 +380,6 @@ i {
   margin-left: auto;
   margin-right: auto;
   gap: 16px;
-  overflow-x: scroll;
 }
 .part3 {
   width: 100vw;
@@ -395,12 +394,14 @@ i {
   margin-left: auto;
 }
 .bigcard {
-  width: 100%;
+  width: 739px;
   height: 183px;
-  font-size: 18px;
-  border-radius: 0 27px 27px 27px;
-  padding: 50px 50px 50px 50px;
-  background-color: white;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 27px 0 27px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pro1 {
@@ -451,26 +452,26 @@ i {
   margin-top: 30px;
   margin-bottom: 100px;
 }
-.pros1{
+.pros1 {
   display: flex;
   min-width: 500px;
   gap: 8px;
   transition: all 0.5s ease;
 }
-.pros2{
+.pros2 {
   display: flex;
   min-width: 500px;
   gap: 8px;
   flex-direction: row-reverse;
   transition: all 0.5s ease;
 }
-.ners .ner1 p{
-color: #000000;
+.ners .ner1 p {
+  color: #000000;
 }
-.ners .onsar{
+.ners .onsar {
   color: #888888;
 }
-.bigcard{
+.bigcard {
   width: 739px;
   height: 183px;
   margin-top: 10px;
@@ -485,7 +486,7 @@ color: #000000;
   transition: all 0.5s ease;
   box-shadow: 0px 0px 50px 4px rgba(209, 209, 209, 0.3);
 }
-.bigcard-right{
+.bigcard-right {
   border-top-right-radius: 27px;
   border-bottom-left-radius: 27px;
   border-bottom-right-radius: 27px;
@@ -498,21 +499,135 @@ color: #000000;
   margin-top: 30px;
   margin-bottom: 100px;
 }
-.article-right{
+.article-right {
   align-self: flex-end;
   align-items: flex-end;
   margin-bottom: 100px;
 }
-.article:hover .bigcard{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(red, green, blue, alpha);
+.article:hover .bigcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: translate(0, -10px);
-  cursor: pointer;
 }
-.article-right:hover .pros2{
+.article-right:hover .bigcard2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: translate(0, -10px);
-  cursor: pointer;
 }
-.article:hover .pros1{
+.article:hover .pros1 {
   transform: translate(0, -10px);
-  cursor: pointer;
+}
+.article-right:hover .pros2 {
+  transform: translate(0, -10px);
+}
+.article-right {
+  align-self: flex-end;
+  align-items: flex-end;
+}
+.bigcard2 {
+  width: 739px;
+  height: 183px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  border-radius: 27px 0 27px 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wholebody {
+  width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.le {
+  display: flex;
+  width: 60%;
+  height: 40%;
+  flex-direction: column;
+}
+.etseg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tusdaa {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.etseg p {
+  color: #0078f6;
+  font-size: 12px;
+  font-weight: 700;
+}
+.etseg h5 {
+  font-size: 21px;
+  color: #000000;
+  margin-left: 10px;
+}
+.ri {
+  background-image: url(huhen.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri1 {
+  background-image: url(nobil.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri2 {
+  background-image: url(nth.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri3 {
+  background-image: url(mashin.jpeg);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.ri4 {
+  background-image: url(hun.png);
+  width: 135px;
+  height: 135px;
+  background-size: 100%;
+  border-radius: 40px;
+}
+.new-weeks {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1116px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.new-week {
+  color: rgba(136, 136, 136, 1);
+  display: flex;
+  height: 62px;
+  width: 212px;
+}
+.new-week-inside {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(136, 136, 136, 1);
+  background-size: 14px;
+}
+.new-week-inside:hover {
+  color: blue;
+}
+.line {
+  width: 1116px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(136, 136, 136, 1);
 }
