@@ -291,6 +291,7 @@ i {
   background-image: url(huuhed.jpg);
   background-position: center;
   border-radius: 9px;
+  background-size: 100%;
 }
 
 .seventh {
@@ -299,6 +300,7 @@ i {
   background-image: url(humuuus.jpg);
   background-position: center;
   border-radius: 9px;
+  background-size: 100%;
 }
 
 .dots {
@@ -383,7 +385,7 @@ i {
 }
 .part3 {
   width: 100vw;
-  background-color: #fafafa;
+  background-color: #ffffff;
   display: flex;
   margin-top: 116px;
   flex-direction: column;
@@ -526,7 +528,7 @@ i {
   width: 739px;
   height: 183px;
   margin-top: 10px;
-  background-color: #ffffff;
+  background-color: #fafafa;
   border-radius: 27px 0 27px 27px;
   display: flex;
   justify-content: center;
@@ -630,4 +632,139 @@ i {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(136, 136, 136, 1);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 200px 150px 200px;
+  gap: 10px;
+  padding: 10px;
+  max-width: 1116px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(olonzurag.png);
+  border-radius: 18px;
+}
+.item2 {
+  background-image: url(nobel.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item3 {
+  background-image: url(zagvarzohiogch.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item4 {
+  background-image: url(100oyutan.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item5 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(zaluus.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item6 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(yponmongol.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item7 {
+  background-image: url(tsag.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item8 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url(olonzurag.png);
+  border-radius: 18px;
+}
+.item9 {
+  background-image: url(nobel.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item10 {
+  background-image: url(zagvarzohiogch.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item11 {
+  background-image: url(100oyutan.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item12 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(zaluus.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item13 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-image: url(yponmongol.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item14 {
+  background-image: url(tsag.jpeg);
+  border-radius: 18px;
+  background-size: 100%;
+}
+.item1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
+}
+.item2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
+}
+.item3:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
+}
+.item4:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
+}
+.item5:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
+}
+.item6:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
+}
+.item7:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translate(0, -10px);
 }
